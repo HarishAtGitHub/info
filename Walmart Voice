@@ -1,0 +1,26 @@
+TO GET PRODUCT LIST (WORK IN PROGRESS TO SUPPORT MORE GENERIC SENTENCES)
+========================================================================
+
+http://ec2-54-213-210-221.us-west-2.compute.amazonaws.com/voice/ml/api/v1.0/shopping/search/walmart
+POST
+{"text" : "get me tv that cost under 100 usd"}
+
+
+TO GET SENTENCE UNDERSTOOD FORM
+===============================
+
+http://ec2-54-213-210-221.us-west-2.compute.amazonaws.com/voice/ml/api/v1.0/shopping/understander/walmart
+POST
+{"text" : "get me tv that cost under 100 usd"}
+
+OTHER SUPPORTED SENTENCES
+=========================
+
+get me couch that costs three hundred usd
+get me brown leather chairs that cost under 300 usd rating and having two day shipping
+black faux leather chairs that have rating greater than equal to 4 preference of five length of 5 width less than 16
+get me chairs under three hundred usd
+show me chairs that have width 16 and height 12
+get me green chairs that have price less than three hundred usd
+get me brown wooden chairs that are under 15 usd
+get me black faux leather chairs that cost under 300 usd rating greater than equal to 4 preference of five length of 5 width less than 16
